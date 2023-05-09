@@ -1,16 +1,16 @@
-import { useDispatch } from "react-redux";
 import { removeFromCart, addItemQuantity, subtractItemQuantity } from "../../../services/cartSlice";
 import { IoAddSharp, IoRemoveSharp } from "react-icons/io5";
 import  CartItemType  from "../../../models/cartItem";
 import  "../../../styles/details.css"
 import { Link } from "react-router-dom";
+import { useAppDispatch } from "../../../app/hooks";
 
 interface Props {
 item: any;
 }
 
 const CartItem: React.FC<Props> = ({ item }) => {
-const dispatch = useDispatch();
+const dispatch = useAppDispatch();
 const { image, name, price, quantity, count_in_stock } = item;
 
 
@@ -46,11 +46,11 @@ return (
 </div>
 <div className="quantity">
 <button onClick={handleSubtractItemQuantity}>
-<IoRemoveSharp />
+<IoRemoveSharp style={{ marginRight: "5px" }}/>
 </button>
 <p>{quantity}</p>
 <button onClick={handleAddItemQuantity}>
-<IoAddSharp />
+<IoAddSharp style={{ marginLeft: "5px" }} />
 </button>
 </div>
 </div>

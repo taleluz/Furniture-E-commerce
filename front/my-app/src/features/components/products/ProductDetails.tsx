@@ -69,8 +69,10 @@ const ProductDetails = () => {
             <img src={`http://127.0.0.1:8000${product.proimage}`} height={400} width={500} alt={product.name} />
             <Link to={`/category/${product.category}`}>
        
-
-              <button className="button-33" role="button">
+<br></br>
+<br></br>
+<br></br>
+              <button className="button-33" role="button" >
                 <AiOutlineArrowLeft /> Back to products
               </button>
             </Link>
@@ -88,7 +90,7 @@ const ProductDetails = () => {
           </div>
         
 
-          <div className="info">
+          <div className="info" >
             <h2>{product.name}</h2>
             <p>{product.desc}</p>
             <p className="size">Size: {product.size_spec}</p>

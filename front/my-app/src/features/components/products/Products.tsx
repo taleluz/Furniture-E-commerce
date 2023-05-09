@@ -97,7 +97,7 @@ const Products = () => {
 
         </div>
       </div>
-      <div>
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
         {filteredProducts.map((product) => (
 
           <div className="card" key={product.id}>

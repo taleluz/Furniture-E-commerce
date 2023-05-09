@@ -105,7 +105,6 @@ export const cartSlice = createSlice({
 
     },
     addItemQuantity: (state, { payload }: PayloadAction<CartItemType>) => {
-      console.log("d")
       console.log(payload)
       state.cartItems = state.cartItems.map((item) => {
         if (item.id === payload.id) {
