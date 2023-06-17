@@ -4,6 +4,7 @@ import  CartItemType  from "../../../models/cartItem";
 import  "../../../styles/details.css"
 import { Link } from "react-router-dom";
 import { useAppDispatch } from "../../../app/hooks";
+import { FaTrash } from "react-icons/fa";
 
 interface Props {
 item: any;
@@ -42,7 +43,9 @@ return (
 <div className="product-name">
 <h2>{name}</h2>
 <h2 className="product-price">${price}</h2>
-<button  className="button-33" role="button" onClick={handleRemoveItem}>Remove </button>
+<button className="button-33" role="button" onClick={handleRemoveItem}>
+        <FaTrash style={{ marginRight: "5px" }} />
+      </button>
 </div>
 <div className="quantity">
 <button onClick={handleSubtractItemQuantity}>

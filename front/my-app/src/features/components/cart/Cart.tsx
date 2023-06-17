@@ -6,7 +6,6 @@ import CartItemType from "../../../models/cartItem";
 import { clearCart } from "../../../services/cartSlice";
 import "../../../styles/cart.css";
 import CartItem from "./CartItem";
-import "../../../styles/cart.css";
 import { Link } from "react-router-dom";
 import { selectLooged } from "../../login/loginSlice";
 import { useNavigate } from "react-router-dom";

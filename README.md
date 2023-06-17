@@ -52,17 +52,27 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ![alt text](./Screenshot_1.png "Screenshot Title")
 
 # Cart 
-![alt text](./Screenshot_2.png "Screenshot Title")
+![alt text](./cart.png "Screenshot Title")
 
 # Wishlist
 ![alt text](./Screenshot_3.png "Screenshot Title")
 
 # Shipping Page
-![alt text](./Screenshot_4.png "Screenshot Title")
+![alt text](./shipping.png "Screenshot Title")
 
 # My Orders Page
-![alt text](./Screenshot_5.png "Screenshot Title")
+![alt text](./Screenshot_2.png "Screenshot Title")
 
+# My Order Details
+![alt text](./Screenshot_10.png "Screenshot Title")
 
+# Login/Register
+![alt text](./Screenshot_11.png "Screenshot Title")
+
+# Register Form
+![alt text](./Screenshot_12.png "Screenshot Title")
+
+# About Page
+![alt text](./aboutPage.png "Screenshot Title")
 
 

@@ -76,6 +76,7 @@
   font-size: 22px;
   margin-top: -5px;
   font-weight: 600;
+  color: black;
 }
 
 .quantity button {
@@ -93,7 +94,7 @@
 
 .quantity svg {
   font-size: 25px;
-  color: #764abc;
+  color: #161617;
 }
 .quantity button:hover {
   background-color: #f2f2f2;
